@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sattva.flkaynestest.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/fileNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter File Name: "
+
+        android:textSize="10dp" />
+
+
+    <EditText
+        android:id="@+id/etFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save">
+
+    </Button>
+
+    <Button
+        android:id = "@+id/btnStartPatientTest"
+        android:layout_height="wrap_content"
+        android:layout_width = "wrap_content"
+        android:text = "Start Patient Test">
+
+    </Button>
+
+    <Button
+        android:id = "@+id/btnStartInternalTest"
+        android:layout_height="wrap_content"
+        android:layout_width = "wrap_content"
+        android:text = "Start Internal Test">
+
+    </Button>
+
+
+
+
+    <Button
+        android:id = "@+id/btnStartExternalTest"
+        android:layout_height="wrap_content"
+        android:layout_width = "wrap_content"
+        android:text = "Start External Test">
+
+    </Button>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel 1"
+            android:layout_weight = "1"
+            android:padding = "10dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel 2"
+            android:layout_weight = "1"
+            android:padding = "10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel 3"
+            android:layout_weight = "1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel 4"
+            android:layout_weight = "1"
+            android:padding = "10dp"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id = "@+id/tvChannelValueOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:layout_weight = "1"
+            android:background="#ff1771"
+            android:padding = "10dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id = "@+id/tvChannelValueTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:layout_weight = "1"
+            android:background="#ff1771"
+            android:padding = "10dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id = "@+id/tvChannelValueThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:layout_weight = "1"
+            android:background="#ff1771"
+            android:padding = "10dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id = "@+id/tvChannelValueFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:layout_weight = "1"
+            android:background="#ff1771"
+            android:padding = "10dp"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
